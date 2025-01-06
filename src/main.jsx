@@ -10,6 +10,7 @@ import Home from './Component/Home';
 import Project from './Component/Project';
 import Blog from './Component/Blog';
 import About from './Component/About';
+import Skill from './Component/Skill';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,11 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <About></About>
+      }
+      ,
+      {
+        path:'/skill',
+        element:<Skill></Skill>
       }
     ]
   },
