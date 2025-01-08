@@ -12,17 +12,17 @@ const About = () => {
                 <h1 className="text-2xl">What would i offer</h1>
                 <div className="grid grid-cols-2 gap-2 text-center">
                     <div className=" bg-base-200 rounded-xl flex p-7">
-                    <RiComputerLine className="text-5xl text-emerald-600" />
+                    <RiComputerLine className="lg:text-5xl  text-emerald-600" />
                         <h1> Frontend Development
                             I can build a beautiful and scalable SPA using HTML,CSS, React.js, Next.js and Jquery</h1>
                     </div>
                     <div className="bg-base-200 rounded-xl flex p-7">
-                    <FaDatabase className="text-3xl text-emerald-600" />
+                    <FaDatabase className="lg:text-3xl text-emerald-600" />
                         <h1>Backend Development
                             handle database, server, api using Express & other popular frameworks</h1>
                     </div>
                     <div className="bg-base-200 rounded-xl flex p-7">
-                    <AiFillApi className="text-3xl text-emerald-600"/>
+                    <AiFillApi className="lg:text-3xl text-emerald-600"/>
                         <h1>API Development
                         I can develop robust REST API using Django</h1>
                     </div>

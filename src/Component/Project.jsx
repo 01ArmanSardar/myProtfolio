@@ -3,8 +3,8 @@ import { FaSquareGithub } from "react-icons/fa6";
 const Project = () => {
 
     return (
-        <div className="grid grid-cols-2">
-            <div className="grid-cols-1 p-9">
+        <div className="grid lg:grid-cols-2">
+            <div className="lg:grid-cols-1 p-9">
                 <Link className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg btn-success" target="_blank" to={'https://dreamhouse-bf644.web.app/'}>DreamHouse</Link>
                 <Link target="_blank" to={'https://github.com/01ArmanSardar/DreamHouse'} ><FaSquareGithub className="text-xl"></FaSquareGithub></Link>
                 <div className="collapse bg-base-200 m-5">
