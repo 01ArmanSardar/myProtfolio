@@ -14,13 +14,13 @@ import Skill from './Component/Skill';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Root></Root>,
     children: [
-      // {
-      //   path: '/',
-      //   element: <Home></Home>
-      // },
+      {
+        path: '/',
+        element: <Home></Home>
+      },
       {
         path: '/project',
         element: <Project></Project>
