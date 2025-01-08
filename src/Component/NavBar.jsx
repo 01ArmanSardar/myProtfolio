@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa6";
@@ -10,9 +10,11 @@ const NavBar = () => {
             <img className="rounded-full w-3/4 m-auto" src={Myimage} alt="" />
             <h1  className=" name text-3xl "> <span className="text-green-500">Arman</span> Sardar</h1>
             <div className="flex justify-evenly">
-            <FaLinkedin  className="text-teal-800 text-3xl"/>
-            <FaSquareGithub className="text-teal-800 text-2xl"/>
-            <FaFacebook className="text-teal-800 text-1xl"/>
+                <Link to={'https://www.linkedin.com/in/arman-sardar-57774628a/'} target="_blank"> <FaLinkedin  className="text-teal-800 text-3xl"/></Link>
+                <Link target="_blank" to={'https://github.com/01ArmanSardar'}><FaSquareGithub className="text-teal-800 text-2xl"/></Link>
+                <Link target="_blank" to={'https://www.facebook.com/mdarman.sardar.7?mibextid=ZbWKwL'}><FaFacebook className="text-teal-800 text-1xl"/></Link>
+            
+            
             </div>
             {/* <NavLink className={' btn btn-outline btn-info m-1' }   to={'/'}>Home</NavLink> <br /> */}
             <NavLink  className={' btn btn-outline btn-info m-1' }  to={'/about'}>about</NavLink> <br />
